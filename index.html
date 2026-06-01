@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miken Creative Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="#home">Miken</a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-line"></span>
+            <span class="nav-line"></span>
+            <span class="nav-line"></span>
+          </button>
+          <ul id="site-menu">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Design experiences that delight and inspire</h1>
+            <p>
+              We are a multidisciplinary studio partnering with ambitious brands to
+              craft human-centered digital products and memorable brand stories.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#contact">Start a project</a>
+              <a class="btn secondary" href="#work">View our work</a>
+            </div>
+          </div>
+          <div class="hero-card" role="presentation">
+            <h2>Latest launch</h2>
+            <p>Alpine Adventures — immersive travel booking experience</p>
+            <a class="text-link" href="#work">Explore case study</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">What we do</p>
+            <h2>Services tailored to elevate your brand</h2>
+            <p>
+              From discovery workshops to launch strategy, our team guides you every step of the way.
+            </p>
+          </header>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Brand Strategy</h3>
+              <p>
+                Define your purpose, positioning, and messaging with data-driven insights and collaborative workshops.
+              </p>
+              <ul>
+                <li>Identity systems</li>
+                <li>Voice and tone guidelines</li>
+                <li>Brand playbooks</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Product Design</h3>
+              <p>
+                Translate your vision into intuitive interfaces and accessible experiences across devices.
+              </p>
+              <ul>
+                <li>UX research &amp; testing</li>
+                <li>UI design systems</li>
+                <li>Prototyping</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Engineering</h3>
+              <p>
+                Build performant applications with modern technologies and agile collaboration.
+              </p>
+              <ul>
+                <li>Full-stack development</li>
+                <li>Technical audits</li>
+                <li>Quality assurance</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section process">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">How we work</p>
+            <h2>Collaborative process for measurable impact</h2>
+          </header>
+          <ol class="timeline">
+            <li>
+              <h3>Discover</h3>
+              <p>We immerse ourselves in your world to understand your goals, audience, and opportunities.</p>
+            </li>
+            <li>
+              <h3>Design</h3>
+              <p>Concepts become prototypes through rapid iteration and continuous feedback loops.</p>
+            </li>
+            <li>
+              <h3>Deliver</h3>
+              <p>Launch with confidence backed by documentation, training, and ongoing optimization.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="work" class="section work">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Recent work</p>
+            <h2>A curated look at selected projects</h2>
+          </header>
+          <div class="gallery">
+            <figure>
+              <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=800&q=80" alt="Mobile app interface" />
+              <figcaption>Pulse Health — patient engagement reimagined</figcaption>
+            </figure>
+            <figure>
+              <img src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=800&q=80" alt="Laptop on a desk" />
+              <figcaption>Northbound — commerce platform with personality</figcaption>
+            </figure>
+            <figure>
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Team collaborating" />
+              <figcaption>Gather — tools for hybrid collaboration</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section testimonials">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Trusted partners</p>
+            <h2>What clients say about working with us</h2>
+          </header>
+          <div class="testimonial-grid">
+            <article>
+              <p>
+                “Miken delivered a product that our customers rave about. Their blend of design and technical expertise is unmatched.”
+              </p>
+              <p class="author">— Priya Desai, CEO at Lumen</p>
+            </article>
+            <article>
+              <p>
+                “A collaborative partner from day one. They challenged our thinking and elevated our brand presence.”
+              </p>
+              <p class="author">— Mateo Alvarez, VP of Marketing at Vela</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="contact-card">
+            <header>
+              <p class="eyebrow">Let's create</p>
+              <h2>Ready to build something remarkable?</h2>
+              <p>
+                Share a few details about your project and we'll schedule a call within two business days.
+              </p>
+            </header>
+            <form class="contact-form" aria-label="Contact form">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Your name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="field">
+                <label for="company">Company</label>
+                <input id="company" type="text" name="company" placeholder="Company name" />
+              </div>
+              <div class="field">
+                <label for="message">Project details</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us about your goals"></textarea>
+              </div>
+              <button class="btn primary" type="submit">Send message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Miken Creative Studio. Crafted with care in Portland.</p>
+        <ul class="social-links">
+          <li><a href="https://dribbble.com" target="_blank" rel="noopener">Dribbble</a></li>
+          <li><a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a></li>
+          <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
