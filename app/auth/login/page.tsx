@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { signInWithGoogle, signInWithPassword } from "@/lib/actions/auth";
+
+export default function LoginPage() {
+  return <main className="flex min-h-screen items-center justify-center px-4 pt-24"><div className="w-full max-w-md luxury-border rounded-[2rem] bg-white/[0.03] p-8"><h1 className="font-display text-5xl">Client login</h1><p className="mt-3 text-ivory/65">Access bookings, payments, private galleries, and downloads.</p><form action={signInWithPassword} className="mt-8 grid gap-4"><input name="email" type="email" required placeholder="Email" className="rounded-xl border border-white/10 bg-black p-4" /><input name="password" type="password" required placeholder="Password" className="rounded-xl border border-white/10 bg-black p-4" /><button className="rounded-full bg-ivory px-6 py-4 font-bold uppercase tracking-[0.22em] text-obsidian">Login</button></form><form action={signInWithGoogle} className="mt-4"><button className="w-full rounded-full border border-white/10 px-6 py-4 uppercase tracking-[0.22em]">Continue with Google</button></form><p className="mt-6 text-sm text-ivory/65">New client? <Link href="/auth/signup" className="text-champagne">Create account</Link></p></div></main>;
+}
